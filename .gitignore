@@ -1,0 +1,94 @@
+.env
+__pycache__/
+Ve
+# Python specific #
+###################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments #
+########################
+venv/
+Ve/
+ENV/
+env/
+.venv/
+.ENV/
+.ve/
+.env/
+
+# PyCharm specific #
+####################
+.idea/
+
+# VSCode specific #
+###################
+.vscode/
+
+# MacOS specific #
+##################
+.DS_Store
+
+# Environment Variables #
+#########################
+.env
+
+# CrewAI specific #
+###################
+crewai.db  # If any database or temporary files are created by CrewAI.
+
+# Logs and temp files #
+#######################
+*.log
+*.tmp
+*.bak
+*.swp
+*.pid
+*.seed
+*.cover
+
+# Jupyter Notebook #
+####################
+.ipynb_checkpoints/
+
+# MyPy #
+########
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Test and coverage #
+#####################
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.cache/

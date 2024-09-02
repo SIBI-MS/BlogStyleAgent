@@ -1,0 +1,16 @@
+# tasks.yaml
+validate_input_task:
+  description: "Validate and structure the user input."
+  expected_output: "A structured and validated input dictionary."
+
+extract_sentiment_and_context_task:
+  description: "Analyze the input to extract sentiment, tone, and keywords."
+  expected_output: "An analysis report containing sentiment, tone, and keywords."
+
+determine_blog_style_task:
+  description: "Determine the most suitable blog style based on the analysis."
+  expected_output: "The selected blog style."
+
+content_outlining_task:
+  description: "Generate a structured outline based on the analysis and chosen style."
+  expected_output: "A content outline."
