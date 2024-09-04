@@ -2,7 +2,6 @@ import openai
 
 def receive_user_input_task(user_input):
     # Validate and structure user input
-    # Here, you can add more complex validation and structuring if needed
     return user_input
 
 def extract_sentiment_and_context_task(validated_input):
